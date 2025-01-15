@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Norse-bold', Times, serif;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.leftcontent{
+    background-image: url(/images/bg.jpg);
+    width: 38%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ .leftTopDiv{
+    margin-top: 20%;
+    height: 25%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+    
+}
+
+.leftcontent #logoContent{
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+
+#logoContent img{
+    width: 8rem;
+    height: 8em;
+}
+
+#logoContent span{
+    font-size: 6rem;
+    color: white;
+    font-family: "Black Ops One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.leftBottomDiv, .leftBottomDiv a{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
