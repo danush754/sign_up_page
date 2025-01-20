@@ -14,7 +14,7 @@ body{
 .leftcontent{
     /* background-image: url(/images/bg.jpg); */
     position: relative;
-    width: 33%;
+    width: 42%;
     height: 100%;
     background-size: cover;
     display: flex;
@@ -84,7 +84,130 @@ body{
 }
 
 .rightcontent{
-    height: 70%;
+    height: 80%;
     width: 75%;
+    display: flex;
+    flex-direction: column ;
+    margin-top: 6rem;
+    gap: 3rem;
+   
 }
+
+.rightTopContent{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 4rem;
+}
+
+#rightHeading{
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: "Arvo", serif;
+    color: #17411d;
+}
+
+#rightPara{
+    font-size: 1.2rem;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+    word-spacing: 5px;
+    color: black;
+}
+
+#midContentHeading{
+    margin: 0px 4rem;
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.rightMidContent{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#signUpForm{
+    display: flex;
+    margin-left: 4rem;
+    gap: 2.5rem;
+    width: 80%;
+}
+
+.rightSideForm, .leftSideForm{
+    display: flex;
+    gap: 1rem;
+}
+
+.rightSideForm label,.leftSideForm label{
+    font-size: 13px;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.rightInnerDiv{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rightMidContent{
+    border-top: 0px;
+    box-shadow: 0px 3px 5px  rgb(114, 112, 112);
+}
+
+.inputDivs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDivs input{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 6px 18px;
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+  font-weight: 400;
+}
+
+.rightBottomContent{
+    margin: 0px 4rem
+}
+
+#signUpBtn{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Arvo", serif;
+    background-color: #3b5839;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#loginRoute{
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+  font-weight: 400;
+}
+
+#loginLink{
+    font-family: "Ubuntu", serif;
+    font-size: 16px;
+  font-weight: 400;
+    color: #3b5839;
+    text-decoration: none;
+}
+
+.inputDivs input:valid{
+    border-color: #1d839c; 
+}
+
+.inputDivs input:invalid{
+    border-color: red;
+}
+
+
 

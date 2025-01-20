@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Jersey+15&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Black+Ops+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Sign-Up</title>
 </head>
@@ -21,7 +21,7 @@
         
 
         <div class="leftBottomDiv">
-            Photo by <a href="https://unsplash.com/@pullipuli?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jishnu Vediyoor</a> on <a href="https://unsplash.com/photos/green-fern-plant-in-close-up-photography-Fi_lu1-OceQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            Video by <a href="https://unsplash.com/@pullipuli?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jishnu Vediyoor</a> on <a href="https://unsplash.com/photos/green-fern-plant-in-close-up-photography-Fi_lu1-OceQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </div>
     
                 
@@ -29,51 +29,72 @@
     </div>
     <div class="rightcontent">
         <div class="rightTopContent">
-            <p>Interested in Visiting Meghalaya ? </p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            
+            <p id="rightPara"><span id="rightHeading">Interested in Visiting Meghalaya ? </span> Welcome to Meghalaya, the 'Abode of Clouds, where nature’s beauty meets rich cultural heritage. From lush green hills and cascading waterfalls to living root bridges and vibrant festivals, our land is a paradise for explorers. Discover the heart of Meghalaya with us and create memories to last a lifetime!</p>
         </div>
+
+        <div class="rightMidMaster">
+            <p id="midContentHeading">Step into the clouds!</p>
         <div class="rightMidContent">
-            <form action="#" >
+            
+            <form action="#"  id="signUpForm">
                 <div class="rightSideForm">
                     <div class="rightInnerDiv">
+                        <div class="inputDivs">
                         <label for="firstName"> First Name</label>
-                     <input type="text" name="first-name" id="firstName" placeholder="First Name" required>
-                    </div>
-                    <div class="rightInnerDiv">
+                        <input type="text" name="first-name" id="firstName"  required>
+                        </div>
+                        
+                        <div class="inputDivs">
                         <label for="email"> Email</label>
-                     <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
-                    </div>
-                    <div class="rightInnerDiv">
+                        <input type="email" name="email" id="email"  required>
+                        </div>
+                        
+                        <div class="inputDivs">
                         <label for="password"> Password</label>
-                     <input type="password" name="password" id="password" placeholder="password" required>
+                        <input type="password" name="password" id="password"  required>
+                        </div>
+                        
+                     
                     </div>
+            
                     
-
+                    
                 </div>
                 <div class="leftSideForm">
                     <div class="rightInnerDiv">
-                        <label for="lastName"> Last Name</label>
-                     <input type="text" name="last-name" id="lastName" placeholder="Last Name" >
-                    </div>
-                    <div class="rightInnerDiv">
-                        <label for="mobile"> Mobile</label>
-                     <input type="number" name="mobile" id="mobile" required>
-                    </div>
-                    <div class="rightInnerDiv">
-                        <label for="Confirmpassword"> Confirm Password</label>
-                     <input type="password" name="password" id="Confirmpassword" placeholder="password" required>
-                    </div>
+                        <div class="inputDivs">
+                            <label for="lastName"> Last Name</label>
+                        <input type="text" name="last-name" id="lastName"  >
+                        </div>
+                        
+                        <div class="inputDivs">
+                            <label for="mobile"> Mobile</label>
+                        <input type="number" name="mobile" id="mobile" required>
 
-                    <div class="rightBottomContent">
-                        <button type="submit"> Create Account</button>
+                        </div>
+                        
+                        <div class="inputDivs">
+                            <label for="Confirmpassword"> Confirm Password</label>
+                        <input type="password" name="password" id="Confirmpassword" required>
 
-                        <p id="loginRoute">Already have an account? <a href="#" id="loginLink">Login</a></p>
+                        </div>
+                        
+                    
                     </div>
                     
-
                 </div>
                 
             </form>
+        </div>
+
+
+        </div>
+        
+        <div class="rightBottomContent">
+            <button type="submit" id="signUpBtn"> Create Account</button>
+
+            <p id="loginRoute">Already have an account ? <a href="#" id="loginLink">Log in</a></p>
         </div>
         
         
